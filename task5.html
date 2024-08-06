@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="a" type="text"><br><br>
+    <button onclick="popup1()">Click</button><br><br>
+    <h3 id="b">***</h3>
+    <script>
+    function popup1()
+    {
+        var x=document.getElementById('a').value
+        document.getElementById('b').innerHTML=" Hello "+x
+    }
+    </script>
+
+</body>
+</html>
